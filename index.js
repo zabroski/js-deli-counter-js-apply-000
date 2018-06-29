@@ -7,7 +7,9 @@ function takeANumber(katzDeline, newName) {
    }
   
   //2
-  function nowServing(katzDeline) {
+  function nowServing(katzDeline)  { 
+    
+    // katzDeline = [issouf,nicole]
   var firstPerson = [];
   if (katzDeline.length === 0) {
     return 'There is nobody waiting to be served!';
